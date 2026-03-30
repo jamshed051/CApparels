@@ -35,11 +35,11 @@ import { useState, useEffect } from "react";
 
 // --- Constants & Data ---
 
-const COMPANY_NAME = "[COMPANY NAME]";
-const CAPACITY = "[50,000+ Units] Monthly Capacity";
-const CERTIFICATIONS = "[BSCI / WRAP / SEDEX / ISO]";
-const CONTACT_EMAIL = "[EMAIL]";
-const CONTACT_WHATSAPP = "[WHATSAPP]";
+const COMPANY_NAME = "Cube Apparels";
+const CAPACITY = "50,000+ Units Monthly Capacity";
+const CERTIFICATIONS = "BSCI / WRAP / SEDEX / ISO";
+const CONTACT_EMAIL = "export@cubeapparels.com";
+const CONTACT_WHATSAPP = "+880 1712-345678";
 
 const COMPLIANCE_LOGOS = [
   { name: "BSCI", label: "BSCI Certified" },
@@ -159,7 +159,7 @@ export default function App() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md border-b border-neutral-100 py-4" : "bg-transparent py-6"}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold text-lg">A</div>
+            <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold text-lg">C</div>
             <span className="text-xl font-bold tracking-tighter uppercase">{COMPANY_NAME}</span>
           </div>
           
@@ -546,7 +546,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-20">
             <div className="col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold text-lg">A</div>
+                <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold text-lg">C</div>
                 <span className="text-xl font-bold tracking-tighter uppercase">{COMPANY_NAME}</span>
               </div>
               <p className="text-sm text-neutral-500 leading-relaxed max-w-sm mb-8">
